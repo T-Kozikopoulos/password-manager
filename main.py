@@ -54,5 +54,5 @@ new_entry.save()
 
 # Use something easy to remember as salt, since you'll be safe with your MASTER_KEY.
 p = new_entry.password('password123')
-# Copy-paste to the sing-up form for the site you want and you're done.
+# Copy-paste to the sign-up form for the site you want and you're done.
 print(p)
